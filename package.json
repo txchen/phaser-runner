@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+      "lint": "eslint src",
+      "dev": "light-server -s . -p 9090 -w 'src/**/*.js, src/**/*.html'"
+    },
+  "devDependencies": {
+    "light-server": "^1.0.6"
+  },
+  "dependencies": {
+    "phaser": "^2.4.3"
+  }
+}
